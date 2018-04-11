@@ -1,3 +1,5 @@
+UPDATE: 似乎使用go自带的RPC会更好！
+
 由于golang是边学边写，估计写的很丑，比如server所有代码放在一起了。
 server使用AVL树保存kv对，以key排序。AVL树的实现是摘自某个博客，我自行添加了parent指针，以
 支持getnext这种操作。
